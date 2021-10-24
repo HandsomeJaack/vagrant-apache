@@ -1,5 +1,1 @@
-# Appache server configuration
-
-```
-vagrant up
-```
+# Apache server configuration
