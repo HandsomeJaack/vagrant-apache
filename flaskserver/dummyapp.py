@@ -1,13 +1,10 @@
-import flask import Flask, json
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/dummy', methods=['Get'])
+@app.route('/')
 def dummyGet():
-    return json.dumps({
-        "success": True,
-        "message": "Congrats! You've receved response from dummy!"
-    }), 200
+    return "Congrats! You've received response from dummy!"
 
 if __name__ == "__main__":
     app.run()
