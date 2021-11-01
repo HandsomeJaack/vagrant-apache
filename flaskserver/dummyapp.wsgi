@@ -1,5 +1,5 @@
 import sys
  
-sys.path.append(0, '/home/vagrant/flaskserver/')
+sys.path.append('/home/vagrant/flaskserver')
  
 from dummyapp import app as application
